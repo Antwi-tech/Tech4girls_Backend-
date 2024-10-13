@@ -1,0 +1,2 @@
+1. touch Antwi.txt
+2. chmod 644 Antwi.txt
