@@ -1,0 +1,9 @@
+Branching in git helps a user to create a user to create a replica of another branch in order to work in the duplicated branch
+to avoid too many errors that a code can create in the main branch. It keeps the main branch clean and makes projects effective.
+
+In a collaboration, it allows other collaborators or the owner to make changes to a work without affecting the actual work (main branch).
+
+Sone porpular branches are :
+1. Feature Branching - To develop new features
+2. Bug fix branch - Fix bugs in code 
+3. Development branch -Integrate  features and reloved bugs
