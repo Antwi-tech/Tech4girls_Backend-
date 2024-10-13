@@ -1,0 +1,9 @@
+Seven directories of the Root directory
+
+1.bin
+2.home
+3.etc
+4.lib
+5.user
+6.var
+7.media
