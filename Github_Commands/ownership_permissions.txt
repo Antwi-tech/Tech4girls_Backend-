@@ -1,0 +1,34 @@
+File ownership refers to the type/limit of access on has to a file.You can check permission of a file using ls -l filename
+
+Read- This allows a user to view the file only.
+Write- This allows one to make modifications to the file.
+Execute- Allows the user to run code or run the file as a program.
+
+
+Permission is basically applied using change mode (chmod) command together with the type of user plus +/- or numbers plus the name of the file
+
+With the use of Numbers:
+7 represents all 3 permissions (r , w, x)
+4 represents the read permission (r)
+2 represents the write command (w)
+1 represents the Execute command (x)
+
+Assuming I have a file called Antwi.txt;
+
+If exeucute chmod 735 Antwi.txt , it means the owner being represented by the first number 7 , has all the 3 permissions, the 
+group represented by the secind number has only write and exeucute (2 + 1 = 3) permissions and others represented by the last letter
+has read and exeucute permissions (4 + 1 = 5)
+
+If I execute chmod 777 Antwi.txt , it means all 3 Groups of users(owner, group , others) can read , write and exeucute the file.
+
+    With the use of Symbols:
+    1. + means adding a type of permission 
+    2. - means removing a type of permission 
+    3. o stands for others
+    4. g stands for group
+    5. u stands for user
+
+     Example
+     chmod u+x Antwi.txt allows the user access to execute the file
+     chmod u-w Antwi.txt removes access for the user to modify the file
+     
