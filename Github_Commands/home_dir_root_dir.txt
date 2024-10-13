@@ -1,0 +1,5 @@
+Home directory contians user(s) of the system whilst root directory the top-most directory where the home directory 
+and other sub-directories can be found.
+Example:
+In Home directory, we can have users like Antwiwaa , Rhoda, Maame , Kofi etc
+In the root directory it basically contains all the system directories like home, bin, lib, etc , init and others.
