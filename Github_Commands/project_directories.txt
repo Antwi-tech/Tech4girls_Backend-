@@ -1,0 +1,3 @@
+1.I executed cd ~ to go into my home directory
+2. I used cd Backend_Projects to go into the directory
+3. I used touch ProjectA ProjectB to create 2 subdirectories
