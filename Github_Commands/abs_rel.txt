@@ -1,0 +1,19 @@
+1. Absolute path is a path that contains, the sequential parent directory to your targeted directory separated by forward slash.
+   To do this, you need the use the change directory command once to navigate to your targeted directory
+
+Example
+    Tech4Girls directory is the parent of gitandgithub directory which is the parent of myfolder directory.If my targeted path is 
+    myfolder, The absolute path will be ** cd Tech4Girls/gitandgithub/myfolder**. But if my targeted path is gitandgithub, my absolute path
+    will just be **Tech4Girls/gitandgithub**.  
+
+2. Relative paths are paths that can only be accessed from a parent directory.This means moving to the child of the parent directory.
+   To do this, you need the use the change directory command more than once plus the child directory you want to go in.
+
+Example
+   Using the previus example, gitandgithub is the child and myfolder is the grandchild of Tech4Girls.
+   So my targeted folder is myfolder but I need to move step my step:
+   a. cd Tech4Girls
+   b. cd gitandgithub
+   c. cd myfolder
+
+   With the abouve steps, you will even see an absolute path beside the commandline prompt one command after the other.
