@@ -1,0 +1,8 @@
+**Steps To Create & Publish a Branch to Github and Switch to it On Github**
+
+1. Make sure you are in your local reposiry main branch and github is opened in your browser
+2. If not, ecxecute the command git checkout origin main to be in the main branch
+2. In your terminal, use the command git branch and the name you want to use as your branch eg : git branch Antwi-Branch
+3. Execute the command git push origin Antwi-Branch to publish the branch to github
+4. Visit your github repository, tap on the arrow on the main button on your left handside .
+5. Select the name you gave to your git branch.
