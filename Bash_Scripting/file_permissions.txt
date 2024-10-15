@@ -1,0 +1,24 @@
+File permissions is basically the level of access a user/group/others have in relation to your files or directory.
+
+-rw-r--r-- 1 userhacsa userhacsa 70 Oct 14 10:00 script.sh
+
+ -  This first dash indicates that script.sh is a file.
+
+rw- Means the user (file owner) of script.sh has read(r) and write(w) permission but not execute(x) permission. So the - in the
+    rw- stands for no execute permission.
+
+r-- The two dashes (--) represents no write and execute permission for group. Group only has read permission, they can only view 
+     the script file. 
+
+r-- Also means that the others can only read (view) the file. They cannot modify or run the script file.   
+
+1 Means there is only one copy of the file script.sh
+
+The first userhacsa represents the owner of the file.
+The second userhacsa represnts the group the file is associated with
+
+70 represnts the size of the file
+
+Oct 14 10:00 is the day it was last modified
+
+script.sh is the name of the file and the .sh at the end shows that it is a script.
