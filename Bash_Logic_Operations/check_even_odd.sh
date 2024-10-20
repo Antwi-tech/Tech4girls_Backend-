@@ -1,8 +1,10 @@
 #!/bin/bash
+echo "Enter a number to check is it is even or odd:"
 
-num=$1
 
-if [ $((num % 2)) -eq 0 ]; then
+read num
+
+if [ $(($num % 2)) -eq 0 ]; then
   echo "The number $num is even"
 else 
   echo "The number $num is odd"
@@ -17,4 +19,5 @@ fi
    echo "The number $1 is odd"
  fi       
 
-#NB: The answer will be printed twice 
+#NB: when executing the file, you have to enter a positional number then when executed the 
+#user will have to enter another number
