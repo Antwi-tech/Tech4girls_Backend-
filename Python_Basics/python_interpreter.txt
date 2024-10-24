@@ -1,0 +1,18 @@
+#How to use access the Python interperator
+
+You first have to make sure you have python3 installed on your machine
+If not use sudo apt install python3 to install python
+
+The python interperator can be accessed with the terminal 
+It allows one to write code one line at a time
+
+To enable the pyton interperator, type python3 in the terminal then type code
+it ">>>" appears then it is an indicates the python3 interperator
+To add two numbers:
+#Declare Variables
+x=10
+y=15
+#Print out summation
+print(x+y)
+
+#This gives the output of 25
