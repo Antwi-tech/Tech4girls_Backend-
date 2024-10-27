@@ -1,0 +1,71 @@
+#DATA TYPES
+
+1.INT - It stands for integer; a datatype used to describe any whole number
+        eg: 5 , 56 ,1,0 34
+
+2.FLOAT - It refers to a number/ an integer with decimals in it 
+         eg: 4.678, 3.14, 2.33 , 56.89
+
+3.STR - This stands for string; used to represent cahracters in quotes.
+        The quotes is what makes it a string
+         eg: 'AMA' , '1', '$/K'
+
+4.List - This is a group of items  separated by comma,in square brackets.
+          It can have multiple number of values
+       List can contain integers, float, string etc
+         eg: ['Ama' , 'Kwadwo', 'Yaa','Kwabena']
+         or [ 1.0 , 4 , 8, 43 , 789 , 23.75 ]
+         or ['True' ,'False']
+
+5. TUPLE - This represents a  group of items separated by comma in curve braces/ parenthesis.
+           Items inside cannot be changed order unlike list
+           eg: ( 1, 2 ,5 ,5) or ('Estate' , 'Apartment', 'Home', 'Chateau')
+
+6.SET -Allows one to create group of unordered items separated by comma in curly braces.
+       eg: { 'Kalyppo', 'Vitamilk' , 'Jolly juice', 'Welch' ,  } or { 1,5 ,7823,}
+            
+
+#STRING METHODS
+
+1. .upper() - This converts a character into a capital letter.
+               eg: name = 'Antwiwaa'
+                   print(name.upper())
+                 #Output
+                ANTWIWAA
+
+
+2. .lower() - This converts a letter into its smaller caps.
+              eg:  street = 'JERUSALEM'
+                   print(street.lower())  
+                   #Output
+                   jerusalem      
+
+3. .replace()  - This is used to change a word in a string or a character in a string.
+                  eg: sentence = 'I am a HACSA scholar'
+                  #This changes the word HACSA TO Tech4Girls
+                      print(sentence.replace('HACSA', 'Tech4Girls'))  
+                  #This changes the letter H of HACSA to N making NACSA     
+                      print(sentence.replace('H', 'N'))  
+
+4. .split - This is used to create a list by dividing each into a string with a comma
+            eg": my_pet = 'His name is Garfield' 
+                 my_split = my_pet.split()
+                 print(my_split)
+                 #Output
+                 ['His', 'name', 'is', 'Garfield']
+
+
+5. .join - This is used to add a chracter(s) to a string
+            eg my_pet = 'His name is Garfield' 
+              joint = '/'.join(my_pet)
+              print(joint)
+              #output 
+              #H/i/s/ /n/a/m/e/ /i/s/ /G/a/r/f/i/e/l/d
+
+
+6. .find() - It is used to look for the index of a letter(s) in a string
+             eg; school = 'Tech4Girls class takes place at Dzorwulu'
+                 print(school.find('Dzorwulu'))
+                 print(school.find('s'))
+
+7.
