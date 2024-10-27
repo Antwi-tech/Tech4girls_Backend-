@@ -24,7 +24,15 @@ print(sentence)
 #So Antwiwaa, which is in the sentence will be excahanged with Afua
 print(sentence.replace( 'Antwiwaa' , 'Afua'))
 
-#Join can be used to put lists together with your desired symbol or word
+#Join can be used to put strings together with your desired symbol or word
+
+#This assigns jollof to each letter and space of the sentence but not the last alphabet
+lunch="I ate"
+joint2= "jollof ".join(lunch)
+print(joint2)
+
+
+#It can be used on a list of strings too
 
 string1=[ "My", "backend" ,"class" ,"takes","place","at" ,"Dzorwulu" ]
 sentencejoined= " ".join(string1)
@@ -35,8 +43,4 @@ animals=['cat','dog','squirrel','penguin','mow']
 joint= ",".join(animals)
 print(joint)
 
-#This assigns jollof to each letter and space of the sentence but not the last alphabet
-lunch="I ate"
-joint2= "jollof ".join(lunch)
-print(joint2)
 
