@@ -30,7 +30,7 @@ while True:
                 print(f"Your numerator: {numerator} ")
                 continue
             except NameError:
-                print('\nPlease re-enter number') 
+                print('\nPlease re-enter a number') 
                 print(f"Your numerator: {numerator} ")
                 continue   
             
