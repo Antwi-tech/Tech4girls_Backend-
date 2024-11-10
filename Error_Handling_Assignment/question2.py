@@ -1,4 +1,5 @@
 # Question 2: Dictionary Lookup
+#Without the while loop the program won't continue to run
 while True:
     try:
         data = {"name": "Alice", "age": 25, "country": "Wonderland"}
