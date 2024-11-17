@@ -1,0 +1,48 @@
+#OBJECT OREINTED PROGRAMMING
+
+Object Oriented Programming focuses on using classes to represent the real world and creating objects"(instance of a class)
+based on these classes.
+For excample we can classify House as a class with toilet, shower, kitchen , bathroom as objects.
+This makes it easier to write more effecient , clean code with resuable features.
+
+The Four Main principles:
+
+1. Encapsulation 
+- As the name goes, Encapsulation , this simply means putting methods and attribute into a single class.
+Like if you have a box and you place things inside that means you have encapsulated it , you have hidden 
+some things inside. The box becomes the class and the things inside become the functions and attributes.
+To acheive encapsulation , we use the access  modifiers ; default, public and private 
+With public modifier, the class is accessible everywhere
+With private modifier , the calss becomes restricted
+With the default, 
+
+
+2. Abstraction
+-This area focuses on whqt the object does than how it does it. It allows users to use the methods in the parent
+With this, any instance that has been used in the parent class can be automatically used in the child class.
+
+        
+3. Inheirtance 
+-This means making use of the properties of the parent class.This works when using child calsses.A child can
+simply inherite or take up the features of it's parent buy simply passing the parent as a parameter .This 
+indicate that the class is using the features/methods of the class that has been bassed as a parameter
+
+class Backend_dev(Sofware_Engineer) 
+Example:
+            def __init__(self, name, position):
+            super().__init__(name,position) - This also lets one class use the instance variables
+
+
+4. Polymorphism 
+- This achieved when the same method of the parent calss is used in the child class. So when the same method
+in the witten in the child class, the one in the parent class is over witten.
+For example in the parent class , full_name() prints a persons actual full name but in the child class,
+when full_name(), is re-written, it only prints the firstname of the person
+
+
+Benefits of Object Oriented Programming
+- The components in oop are resuable even if in anoter file
+
+- With the use of encapsulation and abstraction, developers are able to hidr their code 
+
+
