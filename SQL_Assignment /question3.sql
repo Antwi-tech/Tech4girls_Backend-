@@ -27,7 +27,7 @@ CREATE TABLE IF NOT EXISTS User_Courses(
     FOREIGN KEY (course_id) REFERENCES Courses(id)
 );
 
-INSERT INTO User_Courses(user_id,course_id)
+INSERT INTO User_Courses(user_id,course_id) --This ensures that each user id cannot be linked to same course more than once, avoiding redundancy
 -- The user id, corresponds to the Users in question 1 and the course id corresponds to the courses that
 -- have been inputed.
 -- So (1,1), means Ama takes a Backend course.The same Ama also takes Network Engineering(1,4)
