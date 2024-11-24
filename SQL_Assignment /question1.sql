@@ -14,7 +14,7 @@ CREATE TABLE IF NOT EXISTS Users(
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL
 );
 
--- Command to insert data into the specified  cloumns
+-- Command to insert data into the specified  cloumns. Every row is known as a record
 INSERT INTO Users(username,email)
 VALUES
       ('ama','ama@example.com'),
