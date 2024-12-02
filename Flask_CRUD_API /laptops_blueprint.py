@@ -26,7 +26,7 @@ def add_laptop():
                 "laptop_number": new_laptop.laptop_number,
                 "specifications": new_laptop.specifications
             },
-            "message": "Success: 201 Created with confirmation message."
+            "message": "Success: Laptop added successfully"
         }), 201
         
     except Exception as e:
