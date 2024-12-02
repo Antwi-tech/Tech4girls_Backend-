@@ -15,16 +15,16 @@ CREATE TABLE IF NOT EXISTS Posts(
 -- See all created tables
 SHOW TABLES;
 
--- Input data into the created table
-INSERT INTO Posts(user_id,title,context)
-VALUES
-     (1,'Class rep','Commmunicate information and organise class'),
-     (1,'Backend Engineer','Create connection between database,front-end and backend'),
-     (2,'Linux System Administrator','Manage,maintain and troubleshooting'),
-     (2,'Python Data Analyst','Analyse data with python'),
-     (2,'Python DevOps Engineer', 'Use python for development and operations'),
-     (3,'Database Administrator','Database management and security'),
-     (3,'Product Manager','Planning, Budgeting, Risk Management, Team Coordination');
+-- -- Input data into the created table
+-- INSERT INTO Posts(user_id,title,context)
+-- VALUES
+--      (1,'Class rep','Commmunicate information and organise class'),
+--      (1,'Backend Engineer','Create connection between database,front-end and backend'),
+--      (2,'Linux System Administrator','Manage,maintain and troubleshooting'),
+--      (2,'Python Data Analyst','Analyse data with python'),
+--      (2,'Python DevOps Engineer', 'Use python for development and operations'),
+--      (3,'Database Administrator','Database management and security'),
+--      (3,'Product Manager','Planning, Budgeting, Risk Management, Team Coordination');
 
 -- See what specifically is in the table
 SELECT * FROM Posts;     
