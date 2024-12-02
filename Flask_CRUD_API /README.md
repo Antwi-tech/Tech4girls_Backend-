@@ -15,7 +15,7 @@ api that performs a particular response.We also can also test the endpoints usin
 - Used to update the entire data that exists in the serever
 
 #### PATCH 
-- This is used to make a specific/partial update to a body
+- This is used to make a specific update to a body
 
 #### DELETE
 - Used to delete data from the server 
