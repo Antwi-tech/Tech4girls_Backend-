@@ -154,5 +154,32 @@ def delete_laptop(laptop_number):
         
     except Exception as e:
         return jsonify({'Unexpected error':{e}})
+    
+"""Partial Mactches endpoint"""   
+@laptop_device.route('/laptops/name', methods=['GET'])
+def search_by_name(name):
+    name = request.args.get('name')  
+    if not name:
+        return jsonify({"error: Laptop not found"}), 400
+
+   
+    search_results = device.search_by_parfticulars(name)
+    
+    if not search_results:
+        return jsonify({"error": "Laptop not found"}), 404
+
+   
+    laptops = [
+        {
+            "name": laptop.name,
+            "laptop_number": laptop.laptop_number,
+            "specifications": laptop.specifications
+        }
+        for laptop in search_results
+    ]
+    
+    return jsonify({"message": "Laptops found successfully", "laptops": laptops}), 200
+           
+             
              
        

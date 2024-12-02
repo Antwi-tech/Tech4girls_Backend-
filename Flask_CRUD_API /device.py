@@ -38,7 +38,10 @@ class Device:
         if selected_laptop:
             self.session.delete(selected_laptop)     
         session.commit()
-        return selected_laptop    
+        return selected_laptop   
+    def search_by_parfticulars(self,name):
+        search_character = self.session.query(Laptop).filter(Laptop.name.ilike(f'%{name}%')).all()
+        return search_character
         
         
 device = Device()    
