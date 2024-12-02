@@ -103,7 +103,7 @@ def get_laptop_number(laptop_number):
 #     return jsonify({'error': 'Laptop not found'}), 404
   
   
-"""Function to update laptop"""    
+"""Function to update laptop based on number"""    
 @laptop_device.route('/laptops/<int:laptop_number>', methods=['PUT'])
 def update_laptop(laptop_number):
     try:
@@ -135,6 +135,8 @@ def update_laptop(laptop_number):
         
     except  Exception as e:
         return jsonify({"Unexpected error": {e}})
+    
+""""""    
             
         
 """Delte a laptop by number"""
